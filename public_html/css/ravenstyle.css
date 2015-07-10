@@ -1,0 +1,133 @@
+body {
+    background-color:#050505;
+    background-image:url("../image/background.png");
+    color:#FAFAFA;
+}
+
+.mainlogo {
+    
+    position:absolute;
+    left:50%;
+    right:50%;
+    width: 500px;
+    //height:500px;
+    margin-left:-250px;
+    z-index: 100;
+    pointer-events: none;
+}
+
+nav {
+    background-color:rgba(105,105,105,0.7);
+    height: 50px;
+    width:1000px;
+    border-radius: 30px;
+    //margin-left:auto;
+    //margin-right:auto;
+    z-index: 50;
+    position: absolute;
+    left:50%;
+    margin-left:-500px;
+    right:50%;
+    top:210px;
+}
+
+nav a {
+    color:#FAFAFA;
+    font-family: 'Brush Script MT',Vivaldi, cursive;
+    font-size:45px;
+    text-decoration: none;
+    position:static;
+    top:-4px;
+    padding:10px;
+    z-index: 200;
+}
+
+a:hover {
+    color:#A00000;
+    text-decoration:underline;
+}
+
+
+#navstud {
+    margin-left: 100px;
+    padding-right: 15px;
+    
+}
+
+#navproj {
+    margin-left: 20px;
+}
+
+#navleftimg {
+    padding-left: 20px;
+    padding-right:10px;
+    float:left;
+}
+
+#navrightimg {
+   padding-right: 20px;
+   float:right;
+}
+
+main {
+    background-color:rgba(15,15,15,0.7);
+    border-radius: 25px;
+    width:1000px;
+    position:absolute;
+    right:50%;
+    left:50%;
+    margin-left:-500px;
+    top:260px;
+    padding-bottom:50px;
+    
+}
+
+.mainsection h1 {
+    font-family: 'Brush Script MT',Vivaldi, cursive;
+    text-decoration: underline;
+    font-size: 45px;
+    text-align: center;
+    padding-right: 20px;
+    padding-top:30px;
+}
+
+.mainsection p {
+    font-family: 'Courier New',Courier,monospace;
+    
+
+}
+
+.raven {
+    float:left;
+    width:350px;
+    height:450px;
+    text-align: center;
+}
+
+#bigraven {
+    width: 300px;
+    padding-top: 50px;
+}
+
+footer {    
+    width:1000px;
+    float:bottom;
+    padding-bottom:25px;
+    padding-top:25px;
+    position:absolute;
+    left:50%;
+    right:50%;
+    margin-left:-500px;
+    margin-top:800px;
+    font-family: 'Courier New',Courier,monospace;
+    color:#FAFAFA;     
+}
+#copyright {
+    padding-left:10px;
+}
+
+footer a {
+    color:#FAFAFA;
+    float:right;
+    padding-right: 20px;
+}
